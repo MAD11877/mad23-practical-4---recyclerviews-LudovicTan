@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp">
+
+    <ImageView
+        android:id="@+id/pfpbox_ru"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blueandroid" />
+
+    <TextView
+        android:id="@+id/namebox_ru"
+        android:layout_width="91dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/pfpbox_ru"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idbox_ru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/pfpbox_ru"
+        app:layout_constraintTop_toBottomOf="@+id/namebox_ru" />
+
+    <ImageView
+        android:id="@+id/imgview_ru_big"
+        android:layout_width="413dp"
+        android:layout_height="413dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfpbox_ru"
+        app:srcCompat="@drawable/blueandroid" />
+</androidx.constraintlayout.widget.ConstraintLayout>
